@@ -1,4 +1,4 @@
-let choice=["rock", "paper", "scissor"], playerScore=0, compScore=0, draw=0;
+let choice=["rock", "paper", "scissors"], playerScore=0, compScore=0, draw=0;
 
 function getComputerChoice(){
     let compChoice=Math.floor(Math.random()*3);
@@ -7,7 +7,7 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-    let x = prompt("Enter your guess : (rock, paper, scissor)");
+    let x = prompt("Enter your guess : (rock, paper, scissors)");
     x=x.toLowerCase();
     if(choice.includes(x)){
         console.log(`You chose ${x}`);
@@ -32,11 +32,11 @@ function playRound(){
     }
     else if(humanChoice=="paper" && computerChoice=="scissor"){
         compScore+=1;
-        console.log("Scissor beats paper! Computer wins...");
+        console.log("Scissors beats paper! Computer wins...");
     }
     else if(humanChoice=="scissor" && computerChoice=="rock"){
         compScore+=1;
-        console.log("Rock beats scissor! Computer wins");
+        console.log("Rock beats scissors! Computer wins");
     }
     else{
         playerScore+=1;
