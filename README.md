@@ -1,17 +1,4 @@
 # odin-rockPaperScissors
 Rock-Paper-Scissor Project from The Odin Project
 
-// for(let i=0;i<5;i++){
-    //     console.log(`Round ${i+1} : `);
-    //     playRound();
-    // }
-    // console.log(`Final Score : You -> ${playerScore} , Computer -> ${compScore} , Draw -> ${draw}`);
-    // if(compScore===playerScore){
-    //     console.log("IT'S A DRAW!!!");
-    // }
-    // else if(playerScore>compScore){
-    //     console.log("YOU WIN!!!");
-    // }
-    // else{
-    //     console.log("COMPUTER WINS!!!");
-    // }
+Added a simple GUI and buttons. As instructed in the first rock,paper,scissors module, I am refraining from adding css for now. I may or may not come back in the future after I have learned advanced html, css to style the project. For now, moving on!!!! Let's fckin go!!!
